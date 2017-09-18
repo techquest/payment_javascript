@@ -1,0 +1,30 @@
+{
+  "name": "paymentsdk",
+  "version": "1.0.2",
+  "description": "Interswitch Library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "maintainers": {
+    "name": "Lekan Omotayo",
+    "email": "developer@interswitchgroup.com"
+  },
+  "files": [
+    "LICENSE",
+    "History.md",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "author": "Lekan Omotayo",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^5.0.1",
+    "es6-promise": "^4.0.5",
+    "interswitch": "^1.0.2",
+    "jsonwebtoken": "^7.1.9",
+    "jssha": "^2.2.0",
+    "node-forge": "^0.6.45",
+    "request": "^2.78.0"
+  }
+}
